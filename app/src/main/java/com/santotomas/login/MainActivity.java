@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnSiguiente;
     Button btnIngresar;
 
-    Button btnHola;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnSiguiente = findViewById(R.id.btn_siguiente);
         btnIngresar = findViewById(R.id.btn_inicio);
-        btnHola = findViewById(R.id.btn_hola);
+
 
         btnSiguiente.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -38,13 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnHola.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent b = new Intent(MainActivity.this, Inicio.class);
-                startActivity(b);
-            }
-        });
+
 
     }
 

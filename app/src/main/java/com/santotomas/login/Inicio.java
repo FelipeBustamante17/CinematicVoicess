@@ -12,6 +12,7 @@ public class Inicio extends AppCompatActivity {
     Button btnPeliculas;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,10 +23,12 @@ public class Inicio extends AppCompatActivity {
         btnPeliculas.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent c= new Intent(Inicio.this, Peliculas.class);
-                startActivity(c);
+                Intent intent= new Intent(Inicio.this, Pelicula.class);
+                startActivity(intent);
             }
         });
+
+
 
     }
 }
