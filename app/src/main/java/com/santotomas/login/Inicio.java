@@ -11,6 +11,9 @@ public class Inicio extends AppCompatActivity {
 
     Button btnPeliculas;
 
+    Button btnMapa;
+
+    Button btnSalir;
 
 
     @Override
@@ -18,6 +21,24 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
         btnPeliculas = findViewById(R.id.btn_Peliculas);
+        btnMapa = findViewById(R.id.btn_Mapa);
+        btnSalir = findViewById(R.id.btn_salir);
+
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentr = new Intent(Inicio.this, MainActivity.class);
+                startActivity(intentr);
+            }
+        });
+
+        btnMapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent inte = new Intent(Inicio.this, MapaCines.class);
+                startActivity(inte);
+            }
+        });
 
 
         btnPeliculas.setOnClickListener(new View.OnClickListener(){
