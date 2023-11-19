@@ -46,17 +46,7 @@
                     android:translationX="165dp"
                     android:translationY="70dp" />
 
-                <RatingBar
-                    android:id="@+id/ratingBar"
 
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -65,17 +55,7 @@
                 android:translationX="60dp"
                 android:translationY="10dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar2"
 
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image13"
@@ -106,17 +86,6 @@
                 android:translationX="60dp"
                 android:translationY="20dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar3"
-
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image22"
@@ -147,17 +116,6 @@
                 android:translationX="60dp"
                 android:translationY="30dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar4"
-
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image11"
@@ -188,17 +146,7 @@
                 android:translationX="60dp"
                 android:translationY="40dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar6"
 
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image9"
@@ -229,17 +177,7 @@
                 android:translationX="60dp"
                 android:translationY="50dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar5"
 
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image10"
@@ -270,17 +208,7 @@
                 android:translationX="60dp"
                 android:translationY="60dp">
 
-                <RatingBar
-                    android:id="@+id/ratingBar9"
 
-                    android:layout_width="235dp"
-                    android:layout_height="45dp"
-                    android:numStars="5"
-                    android:rating="0"
-                    android:scaleX="0.6"
-                    android:scaleY="0.6"
-                    android:translationX="70dp"
-                    android:translationY="110dp" />
 
                 <ImageView
                     android:id="@+id/image2"
